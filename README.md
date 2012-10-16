@@ -1,4 +1,4 @@
-TakeTalks_app
+Teaser_app
 =============
 
-TakeTalks App for iOS
+Teaser App for iOS
