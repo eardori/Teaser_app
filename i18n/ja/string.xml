@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="under_construction">今回のバージョンではサポートされていない機能です。\ nTakeTalksウェブサイト（http://www.taketalks.com/）にアクセスすると、教室を含むすべての機能をご利用いただけます。</string>
+  <string name="bad_connection">接続されていません。\ nネットワーク接続状況を確認してください</string>
+  <string name="ask_login">すべてのサービスを利用するには、登録後、ログインが必要です。</string>
+  <string name="latest_data">最新のデータです。\ n明日もう一度確認してください。</string>
+  <string name="first_data">最初のデータです。</string>
+  <string name="send_failed">メッセージの送信に失敗しました。\ nネットワーク接続状況を確認した後、再試行してください</string>
+  <string name="add_interest">カテゴリ％sの％sをお気に入りに追加します。</string>
+  <string name="request_login_info">ユーザー名とパスワードを入力して、もう一度やり直してください。</string>
+  <string name="notexist">登録されていないメールアドレスです。\ n再試行してください。</string>
+  <string name="wrong_password">パスワードが正しくありません\ n再試行してください。</string>
+</resources>

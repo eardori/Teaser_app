@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-development" type="string">ARS7IRxgvonteXWB0KsEc9f2UxavWPWR</property>
+    <property name="acs-oauth-key-development" type="string">TwS1XVHH18NaYf59CYZRIvno6iBz7LUN</property>
+    <property name="acs-api-key-development" type="string">5Hxh5lcOiZGusRD1eXgtEQigX2PHwDlc</property>
+    <property name="acs-oauth-secret-production" type="string">Xy4V0oiHoFfjNnRJon8LQqsTiigFvBpr</property>
+    <property name="acs-oauth-key-production" type="string">NGMNTLbRkRYnTMxJCt4WwpZ2Fvz9LhbV</property>
+    <property name="acs-api-key-production" type="string">eDNFkPOje9pH5DF7teFvAsIJMhbxNIfS</property>
+    <deployment-targets>
+        <target device="mobileweb">false</target>
+        <target device="iphone">true</target>
+        <target device="ipad">false</target>
+        <target device="android">false</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <sdk-version>2.1.0.GA</sdk-version>
+    <id>TakeTalksTeaser</id>
+    <name>TakeTalks</name>
+    <version>0.0.1</version>
+    <publisher>Kevin H. Oh</publisher>
+    <url>http://www.taketalks.com</url>
+    <description>not specified</description>
+    <copyright>2012 by WEduPlay Inc.</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>65f78098-e1c6-48d4-9b7e-3973cd14c105</guid>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <modules>
+        <module platform="iphone" version="1.1">ti.smsview</module>
+    </modules>
+</ti:app>

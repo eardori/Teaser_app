@@ -1,0 +1,75 @@
+Ti.include("./global.js");
+// this sets the background color of the master UIView (when there are no windows/tab groups on it)
+var tabGroup = Ti.UI.createTabGroup();
+Ti.App.customTabGroup = tabGroup;
+//    	#3c9dd0
+//		#9dcee7
+//		#f9bf7a
+
+var winPhoto = Ti.UI.createWindow({
+	url:'./winPhoto.js',
+	navBarHidden:'true'
+});
+var tabPhoto = Ti.UI.createTab({
+	icon:'./images/tabPhoto.png',
+	title:'Photo',
+	height:'auto',
+	width:'auto',
+	window:winPhoto
+});
+	
+var winToday = Ti.UI.createWindow({
+	url:'./winToday.js',  
+    title:'Today English',
+    navBarHidden: true,
+    backgroundColor:'#3c9dd0'
+});
+var tabToday = Ti.UI.createTab({  
+    icon:'./images/tabToday.png',
+    title:'Today English',
+    height:'auto',
+    width:'auto',
+    window:winToday
+});
+
+var winMessage = Ti.UI.createWindow({
+	url:'./winMessageMain.js',
+    title:'Message',
+    backgroundColor:'#9dcee7'
+});
+var tabMessage = Ti.UI.createTab({  
+    icon:'./images/tabMessage.png',
+    title:'Message',
+    height:'auto',
+    width:'auto',
+    window:winMessage
+});
+
+var winMyPage = Ti.UI.createWindow({  
+    title:'MyPage',
+    backgroundColor:'#f9bf7a',
+	url: './winMyPage.js'    
+});
+var tabMyPage = Ti.UI.createTab({  
+    icon:'./images/tabMypage.png',
+    title:'MyPage',
+    height:'auto',
+    width:'auto',
+    window:winMyPage
+});
+//
+//  add tabs
+//
+//tabGroup.addTab(tabTutors);
+tabGroup.addTab(tabPhoto);
+tabGroup.addTab(tabMessage); 
+tabGroup.addTab(tabToday); 
+tabGroup.addTab(tabMyPage); 
+
+tryLogout();
+//if (Ti.App.Properties.getBool('showNotice', true)){
+// open tab group
+tabGroup.open();
+
+
+

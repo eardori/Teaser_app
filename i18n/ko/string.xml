@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="under_construction">이번 버젼에는 지원되지 않는 기능입니다.\nTakeTalks 웹사이트(http://www.taketalks.com)에 방문하시면 강의실을 포함한 모든 기능을 다 이용하실 수 있습니다.</string>
+  <string name="bad_connection">연결이 되지 않습니다.\n네트워크 연결상황을 확인하세요.</string>
+  <string name="ask_login">모든 서비스를 이용하시려면 가입 후 로그인을 하셔야 합니다.</string>
+  <string name="latest_data">가장 최신 데이터입니다.\n내일 다시 확인해주세요.</string>
+  <string name="first_data">첫 데이터입니다.</string>
+  <string name="send_failed">메세지 전송에 실패하였습니다.\n네트워크 연결상황을 확인후 다시 시도하세요.</string>
+  <string name="add_interest">카테고리 %s 의 %s 를 본인의 관심사로 추가합니다.</string>
+  <string name="request_login_info">아이디와 비밀번호를 입력하신 후 다시 시도해주세요.</string>
+  <string name="notexist">가입되지 않은 이메일 주소입니다.\n다시 시도해주세요.</string>
+  <string name="wrong_password">비밀번호가 잘못되었습니다.\n다시 시도해주세요.</string>
+</resources>

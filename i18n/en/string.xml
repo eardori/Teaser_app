@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="under_construction">TakeTalks virtual classroom is currently not available in mobile version. \nIn order to have class, please visit our website http://www.taketalks.com</string>
+  <string name="bad_connection">You're not able to connect the server right now due to bad internet connection.\nPlease try again.</string>
+  <string name="ask_login">You need to sign-in to use full service.</string>
+  <string name="latest_data">This is the latest contents.\nYou should come and check tomorrow.</string>
+  <string name="first_data">This is the first contents.</string>
+  <string name="send_failed">Message hasn't sent properly due to internet connection. \nPlease try again after few seconds.</string>
+  <string name="add_interest">Would you like to add %s in %s category as your interest?</string>
+  <string name="request_login_info">Required valid user id and password.\nPlease try again.</string>
+  <string name="notexist">Account id you tried doesn't exist on our database.\nPlease try again.</string>
+  <string name="wrong_password">Incorrect password.\nPlease try again.</string>
+</resources>
